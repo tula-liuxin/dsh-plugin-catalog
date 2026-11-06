@@ -331,6 +331,18 @@
       },
       "versions": [
         {
+          "version": "0.2.2",
+          "publishTimestamp": 1793981794,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "9ad4d8b4a26fd2685327b737440d5333f04426a7"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
           "version": "0.2.1",
           "publishTimestamp": 1793381405,
           "source": {
