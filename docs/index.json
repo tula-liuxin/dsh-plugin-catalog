@@ -1,12 +1,1626 @@
 {
-  "description": {
-    "en": "This public catalog has been retired.",
-    "zh": "公开插件索引已停用。"
-  },
+  "format": 1,
   "title": {
-    "en": "Retired DSH plugin catalog",
-    "zh": "旧 DSH 插件市场已停用"
+    "en": "Leo's DSH Plugins",
+    "zh": "Leo 的 DSH 插件"
   },
-  "plugins": [],
-  "format": 1
+  "description": {
+    "en": "Public catalog. Installation requires access to the private GitHub repositories.",
+    "zh": "公开目录，安装需要私有 GitHub 仓库的读取权限。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-conversation-companion",
+      "title": {
+        "en": "Conversation Companion",
+        "zh": "对话助手"
+      },
+      "description": {
+        "en": "Short next-prompt suggestions, typo correction, deep rewriting and plain-language summaries.",
+        "zh": "预测简短的下一句，纠正笔误、深度改写，并用大白话总结回复。"
+      },
+      "icon": "icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/dsh-conversation-companion#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/dsh-conversation-companion"
+      },
+      "versions": [
+        {
+          "version": "0.5.8",
+          "publishTimestamp": 1793381259,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "81fca7a036226014c858ed30c3dd7e800770d296"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.7",
+          "publishTimestamp": 1793354362,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "9fb2f825280b24c01c16f8822b1e83934ffc4772"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.6",
+          "publishTimestamp": 1793160662,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "4eac84dae188cfe8b885cdb75787b6564746cf98"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.5",
+          "publishTimestamp": 1793087285,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "588f06fa92a4e30735bae568b6f34dcf29583cec"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.4",
+          "publishTimestamp": 1793078994,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "ca761c7a8addb0617e8a73e5f993cf4145177cc6"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1793068144,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "046cee424089740be591c1e524864ce5c4e98fbc"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1793060270,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "eb16fb5cc859270591bf82cd581cf9380804fdfa"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1792902299,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-conversation-companion",
+            "commit": "820b49bf46880cf0e1c4cfd83748a363b3fe1aa3"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-center-host",
+      "title": {
+        "en": "My Device Center",
+        "zh": "我的设备中心"
+      },
+      "description": {
+        "en": "Connect your DSH to a self-hosted center and use it from any browser.",
+        "zh": "将电脑接入自己的设备中心，在手机、平板浏览器中使用同一份 DSH 会话。"
+      },
+      "icon": "center-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/dsh-center#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/dsh-center",
+        "directory": "plugin"
+      },
+      "versions": [
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1793381312,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "0d7ec4292fc5b4b8f8a50e83f66b266af9607946",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1793354362,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "b7e215edd4f01cf5341da435956fb1f1017c7cb1",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1793276566,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "8ef7f5f505df40df4d7a24f4e3208601438b24c2",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1793271523,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "9cc72637b36633080a042eaba80f7f26600f6e2b",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1793155506,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "795d35312498f2003811e7b100defd1e40cef6fc",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1793154487,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "931dd471c70cc7616e38adc0e9e00c273d706743",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793151450,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "e8ae10b843d8e5a9617fc97a468a94de4113bb0d",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1793113649,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "eed640a309338bb988d467a3fbb6b3d31c382192",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1793053011,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "5df00b7bf44809f34ec24cadd364b62611d5737b",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793019645,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "a8b88c4ccd198cd3655282841cf65419eb575492",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793019408,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "1ea9eddf1e06b826557cc139c2e7a922d89681a4",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793017904,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "a2797bdf043ac9685f6af5c29fd3ffea31ffef69",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793010295,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-center",
+            "commit": "1ca17e457c1aff7995c8fc110ac4de9ca8b3c03c",
+            "path": "plugin"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-dev-context",
+      "title": {
+        "en": "DSH Dev Context",
+        "zh": "DSH 开发上下文"
+      },
+      "description": {
+        "en": "Keeps a small, version-stamped index of how to develop for the installed DeepSeek Harness, rebuilt when the local DSH version changes. Other AI harnesses read the bundled skill to get started.",
+        "zh": "把本机安装的 DSH 投影成一份带版本戳的小索引，DSH 版本变化时自动重建；其他 AI harness 读附带的 skill 即可上手开发。"
+      },
+      "icon": "dev-context-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/dsh-dev-context#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/dsh-dev-context"
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1793381405,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "c9e32d94d1578529fbd5b1340865db15387c940e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793054622,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "20a79ade4ceb0b3c7952b412540aaefbf5efa7a4"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793055074,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "28551b20eedb88dd85bd5faa764150adc8f9fbdf"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793055584,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "3777bb395184cb5a063978ec9ced2d61e9836d67"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "my-dsh-ui",
+      "title": {
+        "en": "My DSH UI",
+        "zh": "我的 UI 子插件"
+      },
+      "description": {
+        "en": "Container bundle for composable DSH UI sub-plugins: toggle, compose and remove them like plugins. The bundled Pinned/Unread sub-plugin expands a floating list inside the left column with pinned sessions first and background-finished unread sessions after them.",
+        "zh": "可组合 DSH 界面子插件的容器：像插件一样开关、组合、卸载。内置「置顶/未读」子插件——点侧栏入口就在左侧栏就地展开浮层，置顶会话在前、后台跑完未读的在后，点一下即切换。"
+      },
+      "icon": "my-dsh-ui-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/my-dsh-ui#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/my-dsh-ui"
+      },
+      "versions": [
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1793381611,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "3c8c041d512656843023b985be89b2de82f19e36"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1793150636,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "bb127847e46a5b8cfc9304d3d778fa49bf5a4844"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "publishTimestamp": 1793092346,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "3d317b1f2857c9914c079e9d0d3998006d80e3c9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1793084626,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "d5bb576acee74030945ded75b720ce111b6eef75"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1793084180,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "5e0ecb5fce25f42e127d48dfc9f4f0bb4aeacafd"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793083890,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "523e4bf1252b3be79c61b5561051c8ee189546a2"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793083589,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "5b9246f1e1f716d74533f64cb0c17eb717abd97d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793079541,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "b7f16d5a27cc158e27dfdde56d6f79483e00aa43"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793078805,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/my-dsh-ui",
+            "commit": "ec825dc885c57de8d052cf1509f33f335237ad7a"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leo-status",
+      "title": {
+        "en": "Leo Status",
+        "zh": "Leo 状态"
+      },
+      "description": {
+        "zh": "独立富文本笔记、时间轴与层级待办；本机中心存储，支持草稿、附件与阿源摘要。",
+        "en": "Independent rich-text notes, timeline and nested tasks with local-centered storage, drafts, attachments and Ayuan summaries."
+      },
+      "icon": "leo-status-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/leo-status#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/leo-status"
+      },
+      "versions": [
+        {
+          "version": "2.4.3",
+          "publishTimestamp": 1793715855,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "2ace906253ff2ed5d209f1f53e64368764d9763a"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.4.2",
+          "publishTimestamp": 1793715042,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "962abefcfa266694534f15a983032a966e87c3ad"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.4.1",
+          "publishTimestamp": 1793714329,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "4b8f271a3c0b5b6428bc2c14d32093d569f15c88"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.4.0",
+          "publishTimestamp": 1793714196,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "f9cae86511d85e3236ce73b7fe34980e402daa86"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.21",
+          "publishTimestamp": 1793676112,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "4dc6e49fc239e179148c3f503a09315e87e8c2b9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.20",
+          "publishTimestamp": 1793665507,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "269836e90b6ecfc02eb7b367926711907bd8850a"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.19",
+          "publishTimestamp": 1793623962,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "bd88d8997ff9d76bbef34341b91e1fb29cecddb9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.18",
+          "publishTimestamp": 1793620485,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "76d151462ea4042740c67e4ce4e59dbc87063d0b"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.17",
+          "publishTimestamp": 1793620096,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "5583826fe277fb20205c4c6a7f3fb82756889443"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.16",
+          "publishTimestamp": 1793619683,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "0704d58cbb46ff8d289d5dd2cfa996d778fd8785"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.15",
+          "publishTimestamp": 1793619300,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "a92765979ced388f51dd0d3976f4fc1f3b683bde"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.14",
+          "publishTimestamp": 1793618942,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "a47d6ef81cae9fb8c46a0e0f4d86d37e632a4536"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.13",
+          "publishTimestamp": 1793618612,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "76cd351f5d16d1fc23203ebf21f7538590604e01"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.12",
+          "publishTimestamp": 1793618475,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "048a728498b124a88ae9b58ad241b5b8f5265542"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.11",
+          "publishTimestamp": 1793617450,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "cbbcaaa4065397fb0692c900b6b5bde85d2921d6"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.10",
+          "publishTimestamp": 1793605760,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "49ac15347a0b42393b2091d8d383e75ae5652348"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.9",
+          "publishTimestamp": 1793592246,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "62ce435bcb3990d73213a928a7554affd113e840"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.8",
+          "publishTimestamp": 1793585583,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "5149f02ba1165086c4b8ac84f6cc29aac0748f07"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.7",
+          "publishTimestamp": 1793582551,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "0fab870d6594eafe1ab026dd21d1f582153261f5"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.6",
+          "publishTimestamp": 1793580820,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "c4455b085d4c2ee16a5b9d4f84afd65878055c73"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.5",
+          "publishTimestamp": 1793415298,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "02a08f5c43c02eefa502c6ea51fbdc2aacea469f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.4",
+          "publishTimestamp": 1793381557,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "f714e298e01d799bff646bcfb4a5148b75750c56"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.3",
+          "publishTimestamp": 1793374686,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "26129ab2a3c8725c1d63e41201bc94ab9d3ee6a5"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.2",
+          "publishTimestamp": 1793371398,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "69e7872b401fdd8d70faa72deb8d11639bd2d82f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.1",
+          "publishTimestamp": 1793319953,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "1259239eb0fd1008d3bcce43ec04180305827715"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.3.0",
+          "publishTimestamp": 1793271523,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "486c1fbdd61182f4a865786115e2b23736876e45"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.2.0",
+          "publishTimestamp": 1793257800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "a5c862146b73c8d8d3ca53b6ba015450066c187c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.1.0",
+          "publishTimestamp": 1793246885,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "034bfab9cf1f0bbfb2ef1c98d7c7649dd7d6c3ed"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1793203212,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "4492549bf05a86fee169d1163ceab27a6a466198"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793170882,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "ad23c391ada7dd216e7ee28e546b65c09b571090"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1793153873,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "3f0f3b2ad7672d972d9c52c7f4add279a520c52d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1793152902,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "a30592ab891366d77a2daa50070846965af69515"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1793148249,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "8c4f7bf397d8396dd2e671c9e0b42e391dc5a5d3"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.6",
+          "publishTimestamp": 1793106198,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "73a1695820aea3e92b626abafdda140260c1a718"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1793105806,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "a5bcd99aa6cd3788d1a40e048b967748d27ce368"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.4",
+          "publishTimestamp": 1793105261,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "cfad2d68b5fe7d37a06661269e70d93cf4f9ab92"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.3",
+          "publishTimestamp": 1793104933,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "c61c2a938783f4fd68af7a4848b1680ad7c27657"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1793104024,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "9c95e59ca42a109cd8d059c056194623deedfa99"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1793103428,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "896485a44a7f4578b3c3d17ffb82cbfe133a93fa"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1793101317,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "bd16e417dc19310d7c6728e42872c2bec54cb3fb"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1793098739,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "f283884a7f658597eaaacf2f8b12697d57fa4d2e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1793095624,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "d3e1b55cc2941baba5f26b3159824957e65a93a9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1793092632,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "f0800bd6e3ad1dfbe8dda138dfd2e940a1231d8f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793091757,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "19ed0642474d6d29fd53a124b07c78e8683b323f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ayuan",
+      "title": {
+        "zh": "阿源",
+        "en": "Ayuan"
+      },
+      "description": {
+        "zh": "阿源：跨设备共享记忆与状态的 DSH 助手（独立浮框、真实 Agent 会话、记忆与页面上下文）。2.0.9 合并上游 2.0.8，并保留两个本地悬浮按钮补丁。",
+        "en": "Ayuan: a shared-memory DSH assistant with a floating conversation panel and real agent sessions. 2.0.9 rebases onto upstream 2.0.8 and keeps two local launcher patches."
+      },
+      "icon": "ayuan-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/ayuan#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/ayuan"
+      },
+      "versions": [
+        {
+          "version": "2.0.12",
+          "publishTimestamp": 1793381349,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "8c470d1c78c9d68d8e849381ff9e5cbc52373973"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.11",
+          "publishTimestamp": 1793358072,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "1db0667b205c0f4614a6243c58e44274a04e5e35"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.10",
+          "publishTimestamp": 1793319211,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "f44188e17b85dcae46b20636c053a2fd81d76218"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.8",
+          "publishTimestamp": 1793264618,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "bc06b6eaaa94848ea3b57aa29c672058c6361272"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.4",
+          "publishTimestamp": 1793257800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "be031dac08a804a5358f00c4f3b93adf993be814"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.3",
+          "publishTimestamp": 1793246885,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "cf7276125a60c3aacffbcde151df2d30e08078a2"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.2",
+          "publishTimestamp": 1793178501,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "4230cedf497222dd9f1122cd565bb3898108cbcb"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.1",
+          "publishTimestamp": 1793176710,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "217da3d0d4f63028444fbd1c6184cdefeb1b0a96"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1793170882,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan",
+            "commit": "8eae9a8e691186b1608142e1b7c51503f66afb9e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leo-quick-launcher",
+      "title": {
+        "zh": "快捷悬浮球",
+        "en": "Quick Launcher"
+      },
+      "description": {
+        "zh": "可扩展的快捷悬浮球：与阿源气泡成组拖动和贴边；0.2.1 保持面板打开时仍可见、贴边位置钳制在视口内。",
+        "en": "Extensible quick-action launcher that docks and drags with the Ayuan bubble; 0.2.1 keeps it visible while the panel is open and clamps docked positions into the viewport."
+      },
+      "icon": "leo-quick-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/leo-quick-launcher#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/leo-quick-launcher"
+      },
+      "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1793381450,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-quick-launcher",
+            "commit": "d3baa965be66eaa111a2249f6720a1ac403bcc97"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1793319176,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-quick-launcher",
+            "commit": "54819b948ccade809bc21e970d988885054aefaa"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793257800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-quick-launcher",
+            "commit": "cebec265bf63b6f79e5eda554808ce91e04c8e6c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793246885,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-quick-launcher",
+            "commit": "4d8c0aa8e84ab0c4e545ecb87f727295799fde37"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "voice-ayuan",
+      "title": {
+        "zh": "阿源语音通话",
+        "en": "Ayuan Voice Call"
+      },
+      "description": {
+        "zh": "豆包式实时语音通话：点电话图标即可用语音和阿源连续对话；语音前台只负责快速回应，真正的任务交给阿源工作区里的会话执行（没有打开的会话会自动新建一张「语音通话」）并语音回报（自动管理远端语音服务和隧道）。",
+        "en": "Doubao-style realtime voice call: click the phone icon and talk to Ayuan; the voice front desk answers fast and hands real work to Ayuan in the Ayuan workspace session, auto-creating a dedicated voice session when none is open, then speaks the result (manages the remote voice service and tunnel automatically)."
+      },
+      "icon": "voice-ayuan-icon.svg",
+      "author": "Leo / tula-liuxin",
+      "homepage": "https://github.com/tula-liuxin/dsh-voice-ayuan#readme",
+      "repository": {
+        "url": "https://github.com/tula-liuxin/dsh-voice-ayuan"
+      },
+      "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1793414990,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "070a5e704b66e4e3d17ad5ba3c4ebee77d60d30f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1793381844,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "826045b4e8fea9c6d968baccf38135fc7e1eef52"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.11",
+          "publishTimestamp": 1793363153,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "ab949a28e454be3b8adab45d744ca18a7a676c42"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.10",
+          "publishTimestamp": 1793362428,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "c450237bad29fcf04140a16bcf1e55f6b38a1f34"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1793361848,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "d775a9fb6d741a4e20e343e9f6eff8c28876639d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.8",
+          "publishTimestamp": 1793360881,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "887ce67a3d42dad0b665b0e5c1aabd6367f09da0"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1793358001,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "f2e1b5b17d3c6d9074c2a75fdc0c8a6e964783db"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1793357462,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "e08fd7901a335ea02d6675df14a5c305eed81862"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1793353785,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "876ddf65ef19650c2dc699b77f6841832772721b"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1793321495,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "6c4ced6cbf31bef8875d5e705f322541b9fcd052"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1793319935,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "927daf2552d06727931222016f39cd08dd43f230"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1793319439,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "abb3ee337d494db772f18d1bc774c8ed6efcdf58"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1793290575,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "4b1f5418f023470d77c4e095c909182aea5320d4"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793288992,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "6304853b811371a7d610cd9d2ab0ca8145671448"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793283965,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "25a5eb2f88652716a401ed819958656a3f06444d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793283672,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-voice-ayuan",
+            "commit": "745be4b04d1b2b282b47bf3ff5a58e9b6c857b93"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "asr-local",
+      "title": {
+        "en": "Local ASR",
+        "zh": "本地转写"
+      },
+      "description": {
+        "en": "Transcribe audio and video with the host GPU Qwen3-ASR, including speaker diarization and voiceprint recognition, and gather meeting or screen recordings from other computers.",
+        "zh": "用本机 GPU 的 Qwen3-ASR 转写录音与视频，带说话人分离和声纹识别，并汇聚其他电脑的会议与录屏。"
+      },
+      "homepage": "https://github.com/tula-liuxin/asr-local#readme",
+      "author": "leo",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793715114,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/asr-local",
+            "commit": "9cbc015a5c6d009efb550e8fc5cae4b1936e79af"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793714482,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/asr-local",
+            "commit": "4e6b42551a9460cb0be2ec08c1383e3b844abac7"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793714378,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/asr-local",
+            "commit": "be5d68504a509ab4fe33fef5d38fc985d2ec8780"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793714236,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/asr-local",
+            "commit": "b64707945b515767011e39ce7a42522319fb27a4"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJhc3ItbG9jYWwiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMTAxODI2Ii8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNWVlMGMwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTQgMzJoNCIvPjxwYXRoIGQ9Ik0yMiAyNXYxNCIvPjxwYXRoIGQ9Ik0zMCAxOXYyNiIvPjxwYXRoIGQ9Ik0zOCAyNHYxNiIvPjxwYXRoIGQ9Ik00NiAyOXY2Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iMTgiIHI9IjUiIGZpbGw9IiM1ZWUwYzAiLz4KPC9zdmc+Cg=="
+    },
+    {
+      "name": "dsh-btw",
+      "title": {
+        "en": "Side Chat",
+        "zh": "完整旁聊"
+      },
+      "description": {
+        "en": "Full native temporary sessions with tabs, parent-context updates, source-preserving merges, editable returns and same-session promotion.",
+        "zh": "原生临时 /btw 浮窗：多标签、上下文跟随、多选融合、可编辑带回与同身份转正。"
+      },
+      "homepage": "https://github.com/tula-liuxin/dsh-btw",
+      "author": "tula-liuxin",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1793857920,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "bf874b3f07709cf7a8ae7c1d9288122946b9e94d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793840399,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "5edf0d768dba75336df79efd43169ba7eae17a75"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793837660,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "f1e6fae74f97ebead9a68c192ecd0784bb4e2653"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793804805,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "dbd8f90b9885e5554b5582fe43e653bdc3f5dde4"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793779504,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "98feb27738d0acdd885ccb047ce4b3acf4c0e179"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNpZGUgY2hhdCI+CiAgPHJlY3QgeD0iNCIgeT0iMTAiIHdpZHRoPSI0NCIgaGVpZ2h0PSIzMCIgcng9IjEwIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YjZmZmYiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxwYXRoIGQ9Ik0xNiA0MCBMMTIgNTIgTDI2IDQwIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YjZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjMwIiB3aWR0aD0iMjYiIGhlaWdodD0iMjAiIHJ4PSI4IiBmaWxsPSIjNGI2ZmZmIiBvcGFjaXR5PSIwLjE0Ii8+CiAgPGNpcmNsZSBjeD0iNDIiIGN5PSI0MCIgcj0iMi40IiBmaWxsPSIjNGI2ZmZmIi8+PGNpcmNsZSBjeD0iNDkiIGN5PSI0MCIgcj0iMi40IiBmaWxsPSIjNGI2ZmZmIi8+PGNpcmNsZSBjeD0iNTYiIGN5PSI0MCIgcj0iMi40IiBmaWxsPSIjNGI2ZmZmIi8+Cjwvc3ZnPgo="
+    },
+    {
+      "name": "@local/leo-wechat-context",
+      "title": {
+        "en": "WeChat Context (read only)",
+        "zh": "微信上下文（只读）"
+      },
+      "description": {
+        "en": "Query explicitly selected WeChat contacts and groups. No message sending.",
+        "zh": "查询明确选择的微信联系人与群聊；不提供发送消息功能。"
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1793959122,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-wechat-context",
+            "commit": "2f928d716fd0e6947691f9f6d1d145d31d55125a"
+          }
+        }
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNDZkNTQiLz48cGF0aCBkPSJNMTQgMTdoMzZ2MjZIMzFMMjAgNTF2LThoLTZ6IiBmaWxsPSJ3aGl0ZSIvPjxwYXRoIGQ9Ik0yMiAyNWgyME0yMiAzM2gxNCIgc3Ryb2tlPSIjMTQ2ZDU0IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgo="
+    }
+  ]
 }
