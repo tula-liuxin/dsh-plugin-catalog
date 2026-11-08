@@ -1593,6 +1593,18 @@
       "author": "leo",
       "versions": [
         {
+          "version": "0.1.6",
+          "publishTimestamp": 1794131736,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/asr-local",
+            "commit": "24d2d0112e3837d43351cbbeee089841c583d2fa"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
           "version": "0.1.5",
           "publishTimestamp": 1794117148,
           "source": {
