@@ -1996,6 +1996,34 @@
         }
       ],
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNDZkNTQiLz48cGF0aCBkPSJNMTQgMTdoMzZ2MjZIMzFMMjAgNTF2LThoLTZ6IiBmaWxsPSJ3aGl0ZSIvPjxwYXRoIGQ9Ik0yMiAyNWgyME0yMiAzM2gxNCIgc3Ryb2tlPSIjMTQ2ZDU0IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgo="
+    },
+    {
+      "name": "dsh-sa",
+      "title": {
+        "en": "SA Service",
+        "zh": "SA 服务"
+      },
+      "description": {
+        "en": "Inspect and start the dsh-superagent service in WSL, and copy its panel URL.",
+        "zh": "查看并启动 WSL 里的 dsh-superagent 服务，一键复制面板地址。"
+      },
+      "homepage": "https://github.com/tula-liuxin/dsh-sa#readme",
+      "author": "Leo",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794315996,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-sa",
+            "commit": "b489dd30bbcc9615c66c143bde63b4fa241fce7b"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTQSI+CiAgPHJlY3QgeD0iMi41IiB5PSIyLjUiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxOSIgcng9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRkNmJmZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9IjAuNTUiLz4KICA8cGF0aCBkPSJNMTIgNi42djUuNCIgc3Ryb2tlPSIjNGQ2YmZlIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTguNCA4LjZhNSA1IDAgMSAwIDcuMiAwIiBzdHJva2U9IiM0ZDZiZmUiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg=="
     }
   ]
 }
