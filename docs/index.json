@@ -2011,6 +2011,18 @@
       "author": "Leo",
       "versions": [
         {
+          "version": "0.2.1",
+          "publishTimestamp": 1794318150,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-sa",
+            "commit": "e9f272d99867482d8280256a87c83bad4d4429fc"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
           "version": "0.2.0",
           "publishTimestamp": 1794317818,
           "source": {
