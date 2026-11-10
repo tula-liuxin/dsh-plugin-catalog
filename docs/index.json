@@ -600,6 +600,18 @@
       },
       "versions": [
         {
+          "version": "2.4.18",
+          "publishTimestamp": 1794312595,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-status",
+            "commit": "889fb4f9871dbe657f57235d6aa6464ccb668d0d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        },
+        {
           "version": "2.4.17",
           "publishTimestamp": 1794312040,
           "source": {
