@@ -2154,6 +2154,15 @@
       },
       "versions": [
         {
+          "version": "0.2.2",
+          "publishTimestamp": 1794878179,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/leo-wechat-context",
+            "commit": "73a2f3dce7081ef287b7127994b86f392e541212"
+          }
+        },
+        {
           "version": "0.2.1",
           "publishTimestamp": 1794811078,
           "source": {
