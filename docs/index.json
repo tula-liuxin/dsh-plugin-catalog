@@ -2176,6 +2176,18 @@
       "author": "tula-liuxin",
       "versions": [
         {
+          "version": "0.1.8",
+          "publishTimestamp": 1795099882,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-btw",
+            "commit": "08e70c6918a17ebf3d1614dfcdb8bb3fba22d48f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
           "version": "0.1.7",
           "publishTimestamp": 1795098564,
           "source": {
