@@ -359,16 +359,28 @@
         "zh": "DSH 开发上下文"
       },
       "description": {
-        "en": "Keeps a small, version-stamped index of how to develop for the installed DeepSeek Harness, rebuilt when the local DSH version changes. Other AI harnesses read the bundled skill to get started.",
-        "zh": "把本机安装的 DSH 投影成一份带版本戳的小索引，DSH 版本变化时自动重建；其他 AI harness 读附带的 skill 即可上手开发。"
+        "en": "Projects the running DeepSeek Harness into a small version-stamped index of this release's own development skill and documentation, rebuilt when the local DSH version changes.",
+        "zh": "把运行中的 DSH 投影成一份带版本戳的小索引：指向这一版自带的开发技能与文档，版本变化时自动重建；供任何 AI harness 了解如何为 DSH 开发。"
       },
-      "icon": "dev-context-icon.svg",
-      "author": "Leo / tula-liuxin",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEU0ggRGV2IENvbnRleHQiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE1IiBmaWxsPSIjMWYzYjhmIi8+CiAgPHBhdGggZD0iTTE2IDE4aDE4bDEwIDEwdjIyYTQgNCAwIDAgMS00IDRIMTZhNCA0IDAgMCAxLTQtNFYyMmE0IDQgMCAwIDEgNC00eiIgZmlsbD0iI2VhZjBmZiIvPgogIDxwYXRoIGQ9Ik0zNCAxOHYxMGgxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWYzYjhmIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxnIHN0cm9rZT0iIzFmM2I4ZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMjAgMzZoMjAiLz4KICAgIDxwYXRoIGQ9Ik0yMCA0MmgyMCIvPgogICAgPHBhdGggZD0iTTIwIDQ4aDEyIi8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjQ3IiBjeT0iNDciIHI9IjEwIiBmaWxsPSIjNGZkMWE1Ii8+CiAgPHBhdGggZD0iTTQzIDQ3bDMgMyA2LTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBkMmE0YSIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
+      "author": "leo",
       "homepage": "https://github.com/tula-liuxin/dsh-dev-context#readme",
       "repository": {
         "url": "https://github.com/tula-liuxin/dsh-dev-context"
       },
       "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1795092219,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/dsh-dev-context",
+            "commit": "a6108247ce56a418a94191564516b91782f0257e"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.2.4",
           "publishTimestamp": 1794044556,
