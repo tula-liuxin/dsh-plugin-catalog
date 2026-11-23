@@ -2549,6 +2549,32 @@
         }
       ],
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTQSI+CiAgPHJlY3QgeD0iMi41IiB5PSIyLjUiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxOSIgcng9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRkNmJmZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9IjAuNTUiLz4KICA8cGF0aCBkPSJNMTIgNi42djUuNCIgc3Ryb2tlPSIjNGQ2YmZlIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTguNCA4LjZhNSA1IDAgMSAwIDcuMiAwIiBzdHJva2U9IiM0ZDZiZmUiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg=="
+    },
+    {
+      "name": "ayuan-center-device-link",
+      "title": {
+        "en": "Ayuan Center",
+        "zh": "阿源中心"
+      },
+      "description": {
+        "en": "Share a permitted project file reader with Ayuan Center.",
+        "zh": "把这台设备上的已授权项目文件读取能力接给阿源中心。"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795445487,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan-center-device-link",
+            "commit": "6d74bab7e8d7bd1785af01b54f369b85f1cdbadb"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNzA1NGM0IiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIyIiB5PSI0IiB3aWR0aD0iMTMiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PHJlY3QgeD0iMTYiIHk9IjkiIHdpZHRoPSI2IiBoZWlnaHQ9IjExIiByeD0iMiIvPjxwYXRoIGQ9Ik02IDE4aDZNOSAxNHY0TTE4LjggMTdoLjQiLz48L3N2Zz4NCg=="
     }
   ]
 }
