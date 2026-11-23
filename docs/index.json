@@ -2557,10 +2557,22 @@
         "zh": "阿源中心"
       },
       "description": {
-        "en": "Share a permitted project file reader with Ayuan Center.",
-        "zh": "把这台设备上的已授权项目文件读取能力接给阿源中心。"
+        "en": "Install Ayuan Center with ordinary Ayuan. Pair to open the host conversation and share permitted project files.",
+        "zh": "安装阿源中心并自动装配普通阿源。配对后打开主机长对话，并可共享获准的项目文件。"
       },
       "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1795446534,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan-center-device-link",
+            "commit": "dbab3720d88ed838e7068d54e9e5fc40bb1821d7"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        },
         {
           "version": "1.0.0",
           "publishTimestamp": 1795445487,
