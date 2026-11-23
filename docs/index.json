@@ -2557,10 +2557,22 @@
         "zh": "阿源中心"
       },
       "description": {
-        "en": "Install Ayuan Center with ordinary Ayuan. Pair to open the host conversation and share permitted project files.",
-        "zh": "安装阿源中心并自动装配普通阿源。配对后打开主机长对话，并可共享获准的项目文件。"
+        "en": "One bundle for Ayuan, the workbench, and device connection.",
+        "zh": "阿源、工作台和各组件共用一个入口。此设备可以运行中心，也可以连接已有主机。"
       },
       "versions": [
+        {
+          "version": "1.2.0",
+          "publishTimestamp": 1795446985,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan-center-device-link",
+            "commit": "d0528836696c0f9a45876d5a83d6c114fcdc9e4b"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        },
         {
           "version": "1.1.0",
           "publishTimestamp": 1795446534,
