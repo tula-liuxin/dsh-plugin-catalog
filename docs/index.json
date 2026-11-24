@@ -2396,9 +2396,21 @@
       },
       "description": {
         "en": "One bundle for Ayuan, the workbench, and device connection.",
-        "zh": "阿源、工作台和各组件共用一个入口。此设备可以运行中心，也可以连接已有主机。"
+        "zh": "自动装配普通阿源，接续主机的 DSH 原生长对话，并按授权连接项目文件。市场安装需要 Git 和首次 GitHub 授权。"
       },
       "versions": [
+        {
+          "version": "1.2.2",
+          "publishTimestamp": 1795562727,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan-center-device-link",
+            "commit": "17121386af868ba075e441909b4428541344699e"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        },
         {
           "version": "1.2.1",
           "publishTimestamp": 1795447614,
