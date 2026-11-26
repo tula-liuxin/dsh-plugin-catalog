@@ -2434,6 +2434,18 @@
       },
       "versions": [
         {
+          "version": "1.2.6",
+          "publishTimestamp": 1795656059,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tula-liuxin/ayuan-center-device-link",
+            "commit": "cdba0162d6d03f333c6fce5de2cb3c4d6629e67b"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        },
+        {
           "version": "1.2.5",
           "publishTimestamp": 1795605316,
           "source": {
